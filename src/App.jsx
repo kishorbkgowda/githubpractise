@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import './index.css'
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-import Howley from "./Components/Howley";
+
 function App() {
   return (
     <>
@@ -25,7 +25,6 @@ function App() {
             <Route path="/home" element={<Home/>}></Route>
             <Route path="/About" element={<About/>}></Route>
             <Route path="/Contact" element={<Contact/>}></Route>
-            <Route path="/howley" element={<Howley/>}></Route>
           </Routes>
       </div>
       </Router>
