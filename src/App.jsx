@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import './index.css'
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-import Howley from "./Components/Howley";
+
 function App() {
   return (
     <>
