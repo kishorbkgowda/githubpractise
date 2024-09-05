@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="header">
         <div>
-          <h1>React Project</h1>
+          <h1>React Projects</h1>
         </div>
         <div>
           <Link className="lol" to="/home">Home</Link>
