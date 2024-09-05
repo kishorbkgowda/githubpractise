@@ -1,0 +1,64 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    height: 5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: coral;
+}
+
+.header :nth-child(1)
+{
+   padding: 0.5rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1.5rem;
+   color: black;
+}
+
+.header :nth-child(2)
+{
+    display: flex;
+    gap: 5rem;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+}
+
+.lol
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    padding: 0.3rem;
+    transition: all 0.3s;
+}
+
+.main
+{
+    background-color: red;
+    width: 100%;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lol:hover
+{
+    background-color: yellow;
+    border-radius: 1rem;
+}
