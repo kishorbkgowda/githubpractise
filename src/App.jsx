@@ -17,7 +17,7 @@ function App() {
           <Link className="lol" to="/home">Home</Link>
           <Link className="lol" to="/About">About</Link>
           <Link className="lol" to="/contact">Contact</Link>
-          <Link className="lol" to='/howley'>Howley</Link>
+          
         </div>
       </div>
       <div className="container">
